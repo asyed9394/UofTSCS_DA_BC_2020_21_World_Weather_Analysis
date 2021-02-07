@@ -7,6 +7,11 @@ __pycache__/
 *.so
 # Config
 config.py
+
+#Adding additional files to igore with api keys
+API_practice.ipynb
+random_numbers.ipynb
+
 # Distribution / packaging
 .Python
 build/
