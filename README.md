@@ -28,59 +28,61 @@ Method: Create a Pandas DataFrame with 500 or more of the world's unique cities 
     
 - Software: Anaconda Jupyter notebook Python 3.7 and panda , Pythong gmaps,  requests modules and citipy
  
-## Solution
-### Weather Analysis:
+## Solution Summary:
+### 1. Weather Analysis:
 
 Weather analysis by latitude and longitute for randomly selected cities.
 
-Jupyter notebook:[Weather analysis](WeatherPy.ipynb)
-Output File: [Weather data from weather analysis](weather_data/cities.csv)
-Map: differet maps.
+1. Jupyter notebook:[Weather analysis](WeatherPy.ipynb)
+2. Output File: [Weather data from weather analysis](weather_data/cities.csv)
+3. Map: different maps.
 
-#### Latitude vs Temperature
+#### 1.3.1 Latitude vs Temperature
 
 ![Lat vs temperature](weather_data/Fig1.png)
 
-#### Latitude vs Humidity
+#### 1.3.2 Latitude vs Humidity
 
 ![Lat vs Humidity](weather_data/Fig2.png)
 
-#### Latitude vs Cloudiness
+#### 1.3.3 Latitude vs Cloudiness
 
 ![Lat vs Cloudiness](weather_data/Fig3.png)
 
-#### Latitude vs Wind Speed
+#### 1.3.4 Latitude vs Wind Speed
 
 ![Lat vs Wind Speed](weather_data/Fig4.png)
 
-### Weather Database:
+### 2. Weather Database:
   Generated random latitudes and longitudes . Then find the nearby cities using python citipy module. 
   For all the cities , gather the weather information using openweather api.
-  Folder : [weather_database](weather_database/)
-  Jupyter notebook: [weather database noteboook](weather_database/Weather_Database.ipynb)
-  output file: [Weather data with weather description](weather_database/WeatherPy_Database.csv)
   
-### Vacation searching tool
+  1. Folder : [weather_database](weather_database/)
+  2. Jupyter notebook: [weather database noteboook](weather_database/Weather_Database.ipynb)
+  3. output file: [Weather data with weather description](weather_database/WeatherPy_Database.csv)
+  
+### 3. Vacation searching tool
   This solution allow user to enter temeprate range as input. And then provide list of citiies that falls withing the range in a google map.
-   Folder : [Vacation Search ](Vacation_Search/)
-  Jupyter notebook: [Vacation Search noteboook](Vacation_Search/Vacation_Search.ipynb)
-  output file: [Vacation data with weather](Vacation_Search/WeatherPy_vacation.csv)
   
-#### Vacation search map:
+  1. Folder : [Vacation Search ](Vacation_Search/)
+  2. Jupyter notebook: [Vacation Search noteboook](Vacation_Search/Vacation_Search.ipynb)
+  3. output file: [Vacation data with weather](Vacation_Search/WeatherPy_vacation.csv)
+  
+#### 4. Vacation search map:
 
 ![vacation weather search map](Vacation_Search/WeatherPy_vacation_map.pmg)
 
 
-### Vacation itinerary tool
+### 5. Vacation itinerary tool
   This solution allow user to enter temeprate range as input. And then provide list of citiies that falls withing the range in a google map.
-   Folder : [Vacation Itinerary ](Vacation_Itinerary/)
-  Jupyter notebook: [Vacation Search noteboook](Vacation_Itinerary/Vacation_Itinerary.ipynb)
-  
-  #### Itinerary Map:
+  1. Folder : [Vacation Itinerary ](Vacation_Itinerary/)
+  2. Jupyter notebook: [Vacation Search noteboook](Vacation_Itinerary/Vacation_Itinerary.ipynb)
+  3. Maps
+  #### 5.3.1 Itinerary Map:
   
   ![Itinerary Map](Vacation_Itinerary/WeatherPy_travel_map.png)
   
-  #### Vacation search with markers map:
+  #### 5.3.2 Vacation search with markers map:
   
   ![Vacation Marker ](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
   
