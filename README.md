@@ -1,10 +1,10 @@
 # World Weather Analysis and Travel Apps
 
 ## Project Overview
-"Plantmytrip" is a technology company that specializes in internet services for hotel and lodging industries. It creates applications that provides user interface , colelct and present data via searching . Customer can use the searching enging to find the location and plan their travel based on their preferred temprature range.
+"Plantmytrip" is a technology company that specializes in internet services for hotel and lodging industries. It creates applications that provides user interface , collect and present data via searching . Customer can use the searching engine to find the location and plan their travel based on their preferred temprature range.
 ### Weather Analysis:
 
-- Objective is to select 500 randim cities, theire lat and long , pull weather data from openmapapi and retireve json data for these citiies.
+- Objective is to select 500 randim cities, their lat and long , pull weather data from openmapapi and retireve json data for these citiies.
 - Pull weather data from json into a dataframe.
 - Use matplotlib to create a series of scatted plot to show the relationship between lat and variet of weather prarmeter
 - Perform statistical calcution using regression analyis for northern and southern hemisphere
